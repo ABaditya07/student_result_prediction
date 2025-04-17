@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model
-model = joblib.load("model/model.pkl")
+model = joblib.load("model.pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="🎓 Student Performance Predictor")
